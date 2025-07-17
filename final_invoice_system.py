@@ -49,5 +49,5 @@ price=float(input("Enter Price Per Unit: "))
 
 update_excel(customer,item,qty,price)
 pdf_file=create_invoice_pdf(customer,item,qty,price)
-send_email_with_invoice("sargaraniruddha@gmail.com",email,"qrvs mcqj sqfz lnpb",pdf_file)
+send_email_with_invoice("[Your_email_id]",email,"[Your_Password]",pdf_file)
 
